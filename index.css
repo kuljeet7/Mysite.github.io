@@ -177,6 +177,7 @@ header .icon i {
         top: 71px;
         z-index: 7000;
         cursor: pointer;
+        display: none;
 }
 
 #lab_btn i {
@@ -1665,6 +1666,11 @@ footer>div ul li a:hover {
                 width: 230px;
                 object-fit: cover;
         }
+
+        #lab_btn {
+
+                display: block;
+        }
 }
 
 
@@ -1925,6 +1931,11 @@ footer>div ul li a:hover {
                 width: 230px;
                 object-fit: cover;
         }
+
+        #lab_btn {
+
+                display: block;
+        }
 }
 
 /* 3 */
@@ -2184,4 +2195,10 @@ footer>div ul li a:hover {
                 width: 230px;
                 object-fit: cover;
         }
+
+        #lab_btn {
+
+                display: block;
+        }
+
 }
