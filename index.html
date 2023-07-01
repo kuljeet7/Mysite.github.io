@@ -49,7 +49,26 @@
                                 <li class="hover tells"><a href="#">contact</a></li>
                         </ul>
                 </div>
+
         </section>
+
+        <!-- side bar -->
+        <input type="checkbox" name="check" id="ch_btn" style="display: none;">
+        <label for="ch-btn" id="lab_btn">
+                <i class="fa fa-bitcoin" aria-hidden="true"></i>
+        </label>
+        <div id="sidebar">
+                <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">service</a></li>
+                        <li><a href="#">product</a></li>
+                        <li><a href="#">team</a></li>
+                        <li><a href="#">help</a></li>
+                        <li><a href="#">feebback</a></li>
+                        <li><a href="#">rating</a></li>
+                        <li><a href="#">join us</a></li>
+                </ul>
+        </div>
 
         <section class="two">
                 <div class="inside ">
@@ -672,6 +691,17 @@
                         <i class="fa fa-linkedin-square" aria-hidden="true"></i>
                 </div>
         </footer>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        <script>
+                $(document).ready(function () {
+                        $('#lab_btn').click(function () {
+                                $('#sidebar').toggle({ 'background': 'red', 'width': '0', });
+                        });
+
+                }); 
+        </script>
 </body>
 
 </html>

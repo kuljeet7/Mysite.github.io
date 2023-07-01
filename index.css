@@ -169,6 +169,49 @@ header .icon i {
         font-size: 15px;
 }
 
+/* sidebar */
+
+#lab_btn {
+        position: fixed;
+        right: 34px;
+        top: 71px;
+        z-index: 7000;
+        cursor: pointer;
+}
+
+#lab_btn i {
+        font-size: 24px;
+}
+
+
+#sidebar {
+        width: 100%;
+        height: 480px;
+        background: blue;
+        padding: 10px 0;
+        position: absolute;
+        top: 120px;
+        z-index: 200;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+#sidebar ul li {
+        margin: 15px 20px;
+}
+
+#sidebar ul li a {
+        color: white;
+        font-size: 2rem;
+        font-weight: 400;
+        text-transform: capitalize;
+}
+
+#sidebar ul li a:hover {
+        color: turquoise;
+}
+
 /* section two */
 
 .two {
@@ -1400,6 +1443,10 @@ footer>div ul li a:hover {
 
         }
 
+        .one .nav {
+                display: none;
+        }
+
         .one .logo {
                 margin-right: 10px;
         }
@@ -1415,28 +1462,272 @@ footer>div ul li a:hover {
                 right: -6px;
         }
 
-        .one .nav ul {
-                margin-top: 0px;
+        #lab_btn {
+                top: 63px;
         }
 
-        .one .nav ul li a {
+        #sidebar {
+                top: 100px;
+        }
+
+        .inside p {
+                font-size: 20px;
+                padding: 12px 0;
+        }
+
+        .inside a {
+                padding: 6px;
+                font-size: 19px;
+        }
+
+        .three .box {
+                flex-wrap: wrap;
+        }
+
+        .box .shade {
+                margin: 12px 15px;
+        }
+
+        .flex {
+                flex-wrap: wrap;
+        }
+
+        .flex .read {
+                height: auto;
+                margin-top: 12px;
+        }
+
+        .range {
+                flex-wrap: wrap;
+        }
+
+        .six {
+                flex-wrap: wrap;
+        }
+
+        .magic {
+                margin-bottom: 24px;
+        }
+
+        .elewen {
+                height: auto;
+        }
+
+        .whole {
+                flex-wrap: wrap;
+        }
+
+        .owner {
+                margin-bottom: 14px;
+        }
+
+        .twelve .whole .rambo {
+                margin-bottom: 14px;
+        }
+
+        .thiry {
+                height: auto;
+        }
+
+        .accord {
+                width: 400px;
+                margin-left: 0;
+        }
+
+        .title {
+                width: 322px;
+        }
+
+        .forty {
+                height: auto;
+        }
+
+        .tin {
+                flex-wrap: wrap;
+        }
+
+        .tin .rob {
+                margin-bottom: 14px;
+        }
+
+        .foll {
+                margin-top: 12px;
+                margin-left: 0;
+                width: 320px;
+                height: auto;
+        }
+
+        .input #ft {
+                width: 261px;
+        }
+
+        .input #ftt {
+                width: 263px;
+        }
+
+        #you {
+                width: 269px;
+                margin-left: 5px;
+        }
+
+        #me {
+                margin: 11px 60px;
+                font-size: 18px;
+        }
+
+        .comment :nth-child(3) {
+                font-size: 15px;
+                font-weight: 300;
+        }
+
+        .comment :nth-child(3)::before {
+                display: none;
+        }
+
+        .tells {
+                display: none;
+        }
+
+        .beat {
+                margin-top: 2rem;
+                text-align: center;
+        }
+
+        .app ul li {
+                margin: 0px 2px;
+                padding: 6px;
+        }
+
+        .app ul li label {
+                font-size: 15px;
+                color: black;
                 font-weight: 400;
+                cursor: pointer;
+        }
+
+        .comman {
+                padding: 0 10px !important;
+        }
+
+        .title label {
+                margin-bottom: 2px;
+                font-size: 15px;
+        }
+
+        .paper p {
                 font-size: 13px;
+                font-weight: 300;
         }
 
-        .one .nav ul li::before {
-                top: 30px;
+        .title .paper {
+                height: 00px;
+                transition: all 300ms ease;
+                overflow: hidden;
+                margin-bottom: 8px;
         }
 
-        .one .nav ul .line::before {
-                content: '';
-                position: absolute;
-                top: 30px;
-                height: 2px;
-                width: 100%;
-                background: #106EEA;
+        footer {
+                flex-wrap: wrap;
+        }
+
+        footer>div {
+                margin-top: 15px;
+        }
+
+        .roop a {
+                padding: 5px 10px;
+                margin-top: 16px;
+                display: inline-block;
+        }
+
+        .upper p:nth-child(1) {
+                padding: 8px;
+                font-weight: 500;
+                font-size: 16px;
+        }
+
+        .upper p:nth-child(2) {
+                font-size: 2rem;
+        }
+
+        #aaa {
+                width: 230px;
+                object-fit: cover;
+        }
+
+        #bbb {
+                width: 240px;
+                object-fit: cover;
+        }
+
+        #ccc {
+                width: 230px;
+                object-fit: cover;
+        }
+}
+
+
+
+
+@media screen and (min-width:300px) and (max-width:400px) {
+        header {
+                height: 50px;
+                padding: 10px 1rem;
+        }
+
+        header .contact a {
+                color: hsl(0deg 0% 100%);
+                font-size: 10px;
+        }
+
+        header .contact .fa-mobile {
+                font-size: 14px;
+        }
+
+        header .icon i {
+                margin: 0px 0px;
+                font-size: 11px;
+                display: inline;
+        }
+
+        .two .inside h1 {
+                font-size: 30px;
+        }
+
+        .one {
+                height: 50px;
+                padding-right: 1px;
 
         }
+
+        .one .nav {
+                display: none;
+        }
+
+        .one .logo {
+                margin-right: 10px;
+        }
+
+        .one .logo h1 {
+                font-size: 18px;
+        }
+
+        .one .logo h1::after {
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                right: -6px;
+        }
+
+
+        #lab_btn {
+                top: 63px;
+        }
+
+        #sidebar {
+                top: 100px;
+        }
+
 
 
         .inside p {
