@@ -195,6 +195,7 @@ header .icon i {
         display: flex;
         justify-content: center;
         align-items: center;
+        display: none;
 }
 
 #sidebar ul li {
