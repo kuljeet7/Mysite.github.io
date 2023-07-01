@@ -189,7 +189,7 @@ header .icon i {
         height: 480px;
         background: blue;
         padding: 10px 0;
-        position: absolute;
+        position: fixed;
         top: 120px;
         z-index: 200;
         display: flex;
